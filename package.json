@@ -1,10 +1,11 @@
 {
   "name": "gh-epxlore",
   "version": "0.1.0",
-  "homepage": "https://patfish.github.io/gh-explore",
+  "homepage": "https://patfish.github.io/gh-epxlore",
   "private": true,
   "dependencies": {
     "react": "^16.2.0",
+    "react-cardstack": "^1.0.1",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.1"
   },
@@ -17,6 +18,8 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
+    "eslint": "^4.18.1",
+    "eslint-config-google": "^0.9.1",
     "gh-pages": "^1.1.0"
   }
 }
